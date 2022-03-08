@@ -53,7 +53,11 @@ INSTALLED_APPS = [
     
     'rest_framework',
     "corsheaders",
+<<<<<<< HEAD
     
+=======
+    "accounts"
+>>>>>>> 94b8d80 (Registered accounts app and Configured url paths)
 ]
 
 AUTH_USER_MODEL = 'base.User'
