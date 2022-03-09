@@ -40,7 +40,11 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+<<<<<<< HEAD
     'jazzmin', 
+=======
+    "jazzmin", 
+>>>>>>> 6575b2b (Integrated django admin theme successfully)
     
     'django.contrib.admin',
     'django.contrib.auth',
@@ -57,7 +61,11 @@ INSTALLED_APPS = [
     
 =======
     "accounts"
+<<<<<<< HEAD
 >>>>>>> 94b8d80 (Registered accounts app and Configured url paths)
+=======
+    
+>>>>>>> 6575b2b (Integrated django admin theme successfully)
 ]
 
 AUTH_USER_MODEL = 'base.User'
